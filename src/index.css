@@ -1,0 +1,12 @@
+:root { --paper: #f6f3ed; --ink: #20221f; --muted: #73756f; --line: #d9d5cb; --card: #fffdf8; --accent: #e65d38; --accent-soft: #f7ded4; --green: #4e7359; --shadow: 0 18px 45px rgba(45, 43, 35, .08); --sans: 'Trebuchet MS', sans-serif; --serif: Georgia, serif; --mono: Consolas, monospace; color: var(--ink); background: var(--paper); font: 16px/1.5 var(--sans); font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+:root[data-theme='dark'] { --paper: #202522; --ink: #f2eee5; --muted: #aeb4a9; --line: #465047; --card: #2a302b; --accent: #ed7958; --accent-soft: #593b33; --green: #9fc2a5; --shadow: 0 18px 45px rgba(0, 0, 0, .2); }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--paper);
+}
+
+#root {
+  min-height: 100svh;
+}
